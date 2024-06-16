@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_sns_apple_black.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "sns_logo_ic_re_apple_24_x_24_white.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
