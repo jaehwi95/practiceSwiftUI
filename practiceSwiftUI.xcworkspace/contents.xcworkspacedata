@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CustomDrawingPad/CustomDrawingPad.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TextfieldTest/TextfieldTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StudyRegex/StudyRegex.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:StringCatalogTest/StringCatalogTest.xcodeproj">
    </FileRef>
    <FileRef
