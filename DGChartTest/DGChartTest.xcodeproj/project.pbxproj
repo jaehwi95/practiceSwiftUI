@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB07C6762C8185E700C6324F /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB07C6752C8185E700C6324F /* ChartView.swift */; };
 		EB0D52D42C7EEB0E00C422CE /* DGChartTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D52D32C7EEB0E00C422CE /* DGChartTestApp.swift */; };
 		EB0D52D62C7EEB0E00C422CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D52D52C7EEB0E00C422CE /* ContentView.swift */; };
 		EB0D52D82C7EEB0F00C422CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0D52D72C7EEB0F00C422CE /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB07C6752C8185E700C6324F /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		EB0D52D02C7EEB0E00C422CE /* DGChartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGChartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0D52D32C7EEB0E00C422CE /* DGChartTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGChartTestApp.swift; sourceTree = "<group>"; };
 		EB0D52D52C7EEB0E00C422CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				EB0D52D32C7EEB0E00C422CE /* DGChartTestApp.swift */,
 				EB0D52D52C7EEB0E00C422CE /* ContentView.swift */,
 				EB0D52E62C7EEBC600C422CE /* DetailView.swift */,
+				EB07C6752C8185E700C6324F /* ChartView.swift */,
 				EB0D52D72C7EEB0F00C422CE /* Assets.xcassets */,
 				EB0D52D92C7EEB0F00C422CE /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				EB0D52D62C7EEB0E00C422CE /* ContentView.swift in Sources */,
 				EB0D52E72C7EEBC600C422CE /* DetailView.swift in Sources */,
 				EB0D52D42C7EEB0E00C422CE /* DGChartTestApp.swift in Sources */,
+				EB07C6762C8185E700C6324F /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
