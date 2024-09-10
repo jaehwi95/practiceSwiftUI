@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TCAViewActionTest/TCAViewActionTest.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DGChartTest/DGChartTest.xcodeproj">
    </FileRef>
    <FileRef

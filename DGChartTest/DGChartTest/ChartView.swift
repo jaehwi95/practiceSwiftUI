@@ -23,6 +23,10 @@ struct TestChart: UIViewRepresentable {
         chartView.configureLeftAxis()
         chartView.configureRightAxis()
         chartView.notifyDataSetChanged()
+        if self.entries.isEmpty {
+            chartView.leftAxis.axisMinimum = 0
+            print("chart leftAxis set")
+        }
         print("chart makeUI called")
         return chartView
     }
@@ -30,10 +34,6 @@ struct TestChart: UIViewRepresentable {
     func updateUIView(_ chartView: LineChartView, context: Context) {
         chartView.clear()
         chartView.data = setChartData()
-        if self.entries.isEmpty {
-            chartView.leftAxis.axisMinimum = 0
-            print("chart leftAxis set")
-        }
         print("chart updateUI, \(chartView.leftAxis.axisMinimum)")
     }
     
